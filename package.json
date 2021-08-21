@@ -1,0 +1,20 @@
+{
+  "name": "p2p-payment-service-for-ovanah.com",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon node app.js",
+    "test": "mocha 'tests/**/*.js' --recursive --exit"
+  },
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.1",
+    "joi": "^17.4.2",
+    "mocha": "^9.1.0",
+    "morgan": "~1.9.1",
+    "nodemon": "^2.0.12"
+  }
+}
